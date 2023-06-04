@@ -1,0 +1,15 @@
+/* .container_Principal {
+/*   border: 3px solid blue; 
+} */
+.error {
+  color: red;
+}
+.success{
+  color:limegreen
+}
+.divInputs{
+  justify-content: flex-start;
+}
+.container2{
+  margin: 20px
+}

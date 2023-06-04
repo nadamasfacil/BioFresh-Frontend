@@ -1,0 +1,1 @@
+export const GET_RATINGS ='GET_RATINGS';

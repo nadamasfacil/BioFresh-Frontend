@@ -1,0 +1,8 @@
+.price{
+    padding: 0 0 0 17px;
+}
+
+#card_container{
+    box-shadow: 6px 6px 6px 1px rgba(36, 24, 24, 0.308),
+  -1px -1px 6px 1px rgba(36, 24, 24, 0.308);
+}

@@ -1,0 +1,30 @@
+#link{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 0.6rem;
+    margin: 0 5px;
+}
+
+#logout{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 0.6rem;
+}
+
+#buttons{
+    justify-content: center;
+}
+
+@media (min-width: 576px) {
+    #link {
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+    #logout {
+        font-size: 1rem;
+    }
+    #buttons {
+        justify-content: end;
+    }
+}

@@ -1,0 +1,27 @@
+.error {
+  color: red;
+}
+.success{
+  color:limegreen
+}
+.divInputs{
+  justify-content: flex-start;
+}
+.container2{
+  margin: 20px
+}
+.ppp h6 {
+  display: flex;
+  justify-content: end;
+  font-weight:lighter;
+  margin-right: 20px;
+}
+
+.mensajes{
+color:rgb(245, 21, 21);
+margin: 10px;
+}
+.mensajesE{
+ color:rgb(19, 185, 19);
+ margin: 10px;
+}

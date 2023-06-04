@@ -1,0 +1,16 @@
+.btnFav{
+    border: 0px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    align-self: center;
+    margin: auto;
+    border-radius: 10px;
+    background: none;
+    font-size: 1.5rem;
+}
+
+#card_container{
+    box-shadow: 6px 6px 6px 1px rgba(36, 24, 24, 0.308),
+  -1px -1px 6px 1px rgba(36, 24, 24, 0.308);
+}

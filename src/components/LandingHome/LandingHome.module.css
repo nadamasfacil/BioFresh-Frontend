@@ -1,0 +1,27 @@
+.hero {
+  border: 1px solid black;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+
+  animation: change-image 20s infinite;
+}
+@keyframes change-image {
+  0% {
+    background-image: url("../../img/NATURE_2.jpeg"),
+      url("../../img/wp4097439.jpg");
+  }
+  30% {
+    background-image: url("../../img/2i.jpg");
+  }
+  60% {
+    background-image: url("../../img/3.jpg");
+  }
+  100% {
+    background-image: url("../../img/4.jpg");
+    animation-delay: 1s;
+  }
+}

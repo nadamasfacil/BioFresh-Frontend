@@ -1,0 +1,83 @@
+.containerPag{
+    /* height: 30px;
+    width: 90%;
+    display: block; */
+    margin: 15px;
+}
+.navPagination{
+    border: 1px solid #bcbfba;
+    background-color: #f9f5f5c7;
+    margin: auto;
+    max-width: max-content;
+    padding: 3px;
+    border-radius: 6px;
+}
+.divNoPaginas{
+    border: 1px solid #e3dfdf;
+    /* background: linear-gradient(181deg, #fbf8f88a, #6c6a6a78); */
+    display: inline-block;
+    padding: 0 6px;
+    border-radius: 6px;
+}
+.linkPagination {
+    display: inline-block;
+    width: 18px;
+    padding: 3px 3px;
+    background-color: whitesmoke;
+    border: 1px solid #2e2e2e52;
+    text-align: center;
+    color: #474646;
+    margin: 3px;
+    border-radius: 4px; 
+    text-decoration:none; 
+    font-size:9px;
+    cursor: pointer;
+    
+}
+.linkPagination:hover{
+    background-color: limegreen;
+    color: #060606;
+}
+
+
+.isCurrent{
+    display: inline-block;
+    width: 18px;
+    padding: 3px 3px;
+   /* // background-color: whitesmoke; */
+    border: 1px solid #2e2e2e52;
+    text-align: center;
+    color: white;
+    margin: 3px;
+    border-radius: 4px; 
+    text-decoration:none; 
+    font-size:9px;
+    background-color: rgb(35, 100, 190);
+}
+.linkPagSig{
+    display: inline-block;
+    width: 63px;
+    padding: 3px 3px;
+    background-color: whitesmoke;
+    border: 1px solid #2e2e2e52;
+    text-align: center;
+    color: #474646;
+    margin: 3px;
+    border-radius: 4px; 
+    text-decoration:none; 
+    font-size:12px;
+     cursor: pointer;
+}
+.linkPagSig:hover{
+    background-color: limegreen;
+    color: #060606;
+}
+.linkPagSig:disabled{
+    background-color: rgb(195, 193, 193);
+    border: 1px solid #8e8e8e;
+   
+    color: #676666;
+}
+.navButtons{
+    display:inline-block
+}
